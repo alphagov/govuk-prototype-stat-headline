@@ -35,3 +35,18 @@
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you,
 // either add and import new partial files, or modify those in GOV.UK elements to fit your user needs.
+
+// Whitehall
+// ==========================================================================
+
+@import "whitehall/styleguide/button";
+@import "whitehall/styleguide/colours";
+@import "whitehall/styleguide/dimensions";
+@import "whitehall/styleguide/float-fix";
+@import "whitehall/styleguide/hidpi";
+@import "whitehall/styleguide/right-to-left";
+@import "whitehall/styleguide/typography";
+
+@import "whitehall/helpers/organisations";
+
+@import "whitehall/html-publications";
