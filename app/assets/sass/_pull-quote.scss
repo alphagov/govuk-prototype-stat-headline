@@ -1,0 +1,30 @@
+.html-publications-show {
+  .publication-content {
+    .govspeak {
+
+      .pull-quote-group {
+        margin-top: $gutter;
+      }
+
+
+      .pull-quote {
+        @include grid-column(1/2);
+        margin-bottom: $gutter;
+
+
+        .reference {
+          @include bold-19;
+          margin: 0;
+        }
+
+        .stat {
+          display: block;
+          @include bold-80;
+          margin-bottom: 0;
+
+          margin-top: $gutter-one-third;
+        }
+      }
+    }
+  }
+}
