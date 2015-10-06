@@ -4,6 +4,7 @@
 
       .stat-headline-group {
         margin-top: $gutter;
+        @extend %grid-row;
       }
 
 
